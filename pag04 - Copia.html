@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animes</title>
+    <link rel="shortcut icon" href="tv.png" type="image/x-icon">
+    <a href="index.html"> voltar</a>
+    <style>
+
+        :root {
+        --cor0:#c5ebd6;
+        --cor1:#0FC2C0;
+        --cor2:#0CABA8;
+        --cor3:#008F8C;
+        --cor4:#015958;
+        --cor5:#000202;
+                 }
+
+        *   {
+        margin: 0px;
+        padding: 0px;
+            }
+    
+            body {
+        font-family: cursive;     
+        background-image: linear-gradient(
+            var(--cor0),var(--cor1),var(--cor2),var(--cor3),var(--cor4));  
+            }
+    
+            header {
+        background-color: var(--cor5);
+        min-height: 30px;
+        text-align: center;
+        padding-top: 30px;
+            }
+    
+    
+            header > h1 {
+                color: var(--cor1);
+        font-family: var(--font-destaque);
+        font-size: 3em;
+        font-weight: normal;
+        margin-bottom: 30px;
+        text-shadow: 2px 2px 0px #c5ebd6;
+            }
+    
+            main  {
+        min-width: 280px;
+        max-width: 1000px;
+        margin: auto;
+        padding: 20px;
+        background-color: var(--cor0);
+        box-shadow: 0px 0px 10px rgba(22, 21, 21, 0.555);
+             }
+             main img {
+        width: 100%;
+            }
+
+             h2 {
+        color: var(--cor5);
+        font-family: var(--font-destaque);
+        font-weight: normal;
+        text-align: center;
+        text-shadow: 2px 2px 0px #c5ebd6;
+            }
+            
+            div.video {
+        background-color: white;
+        margin: 0px -20px 30px -20px;
+        padding: 20px;
+        padding-bottom: 58%;
+        position: relative;
+            }
+
+            div.video > iframe {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+            }
+            footer {
+         background-color: var(--cor5);
+        color: white;
+        text-align: center;
+        font-size: 0,8em;
+        padding: 5px;
+            }
+
+        footer > a {
+        color: white;
+        font-weight: bolder;
+        text-decoration: none;
+            }
+            footer a:hover{
+        text-decoration: underline;
+        color: var(--cor1);
+            }
+
+        </style>
+</head>
+<body>
+    <header>
+        <h1>Animes</h1>
+    </header>
+    <h2>Melhores Animes De Todos os Tempos</h2>
+    <main>
+        <article>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/4hjayijO2dA"
+                 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <li><a href="https://youtu.be/4hjayijO2dA">Top5 Melhores Animes de Todos os Tempos</a></li>
+        </article>
+    </main>
+    <footer>
+        <p><a href="https://youtu.be/4hjayijO2dA" target="_blank" class="externo">Siga o Canal no youtube</a></p>
+    </footer>
+   
+</body>
+</html>
